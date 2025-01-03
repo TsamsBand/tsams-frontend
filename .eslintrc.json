@@ -1,0 +1,14 @@
+{
+    "env": {
+      "browser": true,
+      "node": true,
+      "serviceworker": true
+    },
+    "extends": [
+      "react-app",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-restricted-globals": "off"
+    }
+  }
